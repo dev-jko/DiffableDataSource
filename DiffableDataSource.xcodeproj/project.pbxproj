@@ -8,23 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		0866A6C224FE2309001D7E4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0866A6C124FE2309001D7E4A /* AppDelegate.swift */; };
-		0866A6C424FE2309001D7E4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0866A6C324FE2309001D7E4A /* SceneDelegate.swift */; };
 		0866A6C624FE2309001D7E4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0866A6C524FE2309001D7E4A /* ViewController.swift */; };
-		0866A6C924FE2309001D7E4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0866A6C724FE2309001D7E4A /* Main.storyboard */; };
 		0866A6CB24FE2309001D7E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0866A6CA24FE2309001D7E4A /* Assets.xcassets */; };
 		0866A6CE24FE2309001D7E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0866A6CC24FE2309001D7E4A /* LaunchScreen.storyboard */; };
 		0866A6D924FE2D3F001D7E4A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0866A6D524FE2D3F001D7E4A /* RxCocoa.framework */; };
 		0866A6DA24FE2D3F001D7E4A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0866A6D624FE2D3F001D7E4A /* RxSwift.framework */; };
 		0866A6DB24FE2D3F001D7E4A /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0866A6D724FE2D3F001D7E4A /* RxRelay.framework */; };
 		0866A6DC24FE2D3F001D7E4A /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0866A6D824FE2D3F001D7E4A /* SnapKit.framework */; };
+		0866A6DF24FE8FE8001D7E4A /* CollectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0866A6DE24FE8FE8001D7E4A /* CollectionData.swift */; };
+		0866A6E224FF521A001D7E4A /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0866A6E124FF521A001D7E4A /* Cells.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0866A6BE24FE2309001D7E4A /* DiffableDataSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiffableDataSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0866A6C124FE2309001D7E4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0866A6C324FE2309001D7E4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0866A6C524FE2309001D7E4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0866A6C824FE2309001D7E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0866A6CA24FE2309001D7E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0866A6CD24FE2309001D7E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0866A6CF24FE2309001D7E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,6 +30,8 @@
 		0866A6D624FE2D3F001D7E4A /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		0866A6D724FE2D3F001D7E4A /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
 		0866A6D824FE2D3F001D7E4A /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		0866A6DE24FE8FE8001D7E4A /* CollectionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionData.swift; sourceTree = "<group>"; };
+		0866A6E124FF521A001D7E4A /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +73,11 @@
 			isa = PBXGroup;
 			children = (
 				0866A6C124FE2309001D7E4A /* AppDelegate.swift */,
-				0866A6C324FE2309001D7E4A /* SceneDelegate.swift */,
 				0866A6C524FE2309001D7E4A /* ViewController.swift */,
-				0866A6C724FE2309001D7E4A /* Main.storyboard */,
-				0866A6CA24FE2309001D7E4A /* Assets.xcassets */,
+				0866A6DE24FE8FE8001D7E4A /* CollectionData.swift */,
+				0866A6E124FF521A001D7E4A /* Cells.swift */,
 				0866A6CC24FE2309001D7E4A /* LaunchScreen.storyboard */,
+				0866A6CA24FE2309001D7E4A /* Assets.xcassets */,
 				0866A6CF24FE2309001D7E4A /* Info.plist */,
 			);
 			path = DiffableDataSource;
@@ -144,7 +144,6 @@
 			files = (
 				0866A6CE24FE2309001D7E4A /* LaunchScreen.storyboard in Resources */,
 				0866A6CB24FE2309001D7E4A /* Assets.xcassets in Resources */,
-				0866A6C924FE2309001D7E4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,22 +180,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0866A6C624FE2309001D7E4A /* ViewController.swift in Sources */,
+				0866A6DF24FE8FE8001D7E4A /* CollectionData.swift in Sources */,
 				0866A6C224FE2309001D7E4A /* AppDelegate.swift in Sources */,
-				0866A6C424FE2309001D7E4A /* SceneDelegate.swift in Sources */,
+				0866A6E224FF521A001D7E4A /* Cells.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0866A6C724FE2309001D7E4A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0866A6C824FE2309001D7E4A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0866A6CC24FE2309001D7E4A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
