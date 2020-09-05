@@ -18,9 +18,3 @@ struct Todo: Hashable {
     let title: String
     let isCompleted: Bool
 }
-
-//extension Todo: Hashable, Equatable {
-//    static func ==(lhs: Todo, rhs: Todo) -> Bool {
-//        return lhs.id == rhs.id
-//    }
-//}
